@@ -10,9 +10,9 @@ Steps to clone and work on this project..
    git add .
 5. Commit with a message..
    git commit -m "Commit Message"
-6.git remote add origin <Repository URL>
-7.git pull origin main
-8.git push -u origin <branch Name>
-9.In the Git Hub account You should raise a pull request with atleast 2-3 reviewers
-10.After reviewing the request by reviewers, request gets accepted. Now you or other team member can merge the request..
+6. git remote add origin <Repository URL>
+7. git pull origin main
+8. git push -u origin <branch Name>
+9. In the Git Hub account You should raise a pull request with atleast 2-3 reviewers
+10. After reviewing the request by reviewers, request gets accepted. Now you or other team member can merge the request..
 
