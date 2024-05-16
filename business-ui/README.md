@@ -44,3 +44,20 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+## Starting with business-app project
+
+## Always work on your branch instead of main
+
+## command to see the current working branch
+
+git branch --show-current
+
+## Commands to create the new branch.
+
+git branch <branchName in double quotes>
+git checkout <branchName in double quotes>
+
+## Pulling the code to stay updated with main branch
+
+git pull origin <main/master>
