@@ -1,17 +1,21 @@
-import React from "react";
 import "./App.css";
+import Dashboard from "./components/Dashboard/Dashboard";
+
+import { Routes, Route, BrowserRouter } from "react-router-dom";
+import Notifications from "./components/Notifications/Notifications";
+import Profile from "./components/Profile/Profile";
+import Customers from "./components/Customers/Customers";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Get Ready for the first Sprint in developing new project.. </h1>
-        <h1>Start Coding</h1>
-        <h1>Start Coding please</h1>
-        <p>Good Wishes for the Project..</p>
-        <p>Creating new line for a pull request...</p>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Dashboard />} />
+        <Route path="/notifications" element={<Notifications />} />
+        <Route path="/profile" element={<Profile />} />
+        <Route path="/customers" element={<Customers />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
