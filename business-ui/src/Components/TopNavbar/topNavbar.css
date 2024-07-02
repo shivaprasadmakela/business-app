@@ -1,0 +1,10 @@
+.top-navbar-container {
+  height: 50px;
+  background-color: #fff;
+  padding: 0px 10px;
+  display: flex;
+  box-shadow: 0px 4px 15px 0px #0000001a;
+}
+.user-name {
+  color: #000;
+}
